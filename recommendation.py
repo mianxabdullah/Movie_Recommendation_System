@@ -1,8 +1,8 @@
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 
-movies = pd.read_csv("data\\raw\\movies.csv")
-clustered = pd.read_csv("outputs\\clustered_movies.csv")
+movies = pd.read_csv("data/raw/movies.csv")
+clustered = pd.read_csv("outputs/clustered_movies.csv")
 df = movies.merge(clustered,on='movieId')
 print(clustered.columns)
 df.head()
