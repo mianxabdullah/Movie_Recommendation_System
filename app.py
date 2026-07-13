@@ -11,7 +11,7 @@ st.set_page_config(
 st.sidebar.title("About")
 
 st.sidebar.markdown("""
-### 🎬 Movie Recommendation System
+###  **Movie Recommendation System**
 
 This project uses:
 
@@ -20,14 +20,14 @@ This project uses:
 - **Cosine Similarity** for recommendations
 
 ### Features
-✅ Unsupervised Learning  
-✅ PCA  
-✅ K-Means  
-✅ Similar Movie Suggestions
+- Unsupervised Learning  
+- PCA  
+- K-Means  
+- Similar Movie Suggestions
 """)
 
 # Main UI
-st.title("🎬 Movie Recommendation System")
+st.title("Movie Recommendation System")
 
 st.caption(
     "Discover movies using PCA, K-Means Clustering and Cosine Similarity"
